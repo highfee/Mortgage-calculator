@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mortgage Payment Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="form">
+        <header>
+          <h1>Mortgage Calculator</h1>
+          <p class="clear">clear All</p>
+        </header>
+
+        <div>
+          <p class="label">Mortgage Amount</p>
+
+          <div class="form_control">
+            <span>&pound;</span>
+            <input type="text" />
+          </div>
+        </div>
+
+        <div class="two">
+          <div>
+            <p class="label">Mortgage term</p>
+
+            <div class="form_control">
+              <input type="text" />
+              <span>years</span>
+            </div>
+          </div>
+          <div>
+            <p class="label">Interest rate</p>
+
+            <div class="form_control">
+              <input type="text" />
+              <span>%</span>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <p>Mortgage type</p>
+
+          <div class="radio-control">
+            <input type="radio" name="type" />
+            <p>Repayment</p>
+          </div>
+          <div class="radio-control">
+            <input type="radio" name="type" />
+            <p>Interest only</p>
+          </div>
+        </div>
+
+        <button>Calculate Repayment</button>
+      </section>
+
+      <section class="data">
+        <h3>Result shown here</h3>
+        <p>
+          Complete the form and click "Calculate Repayment" to see what your
+          monthly repayment would be
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
