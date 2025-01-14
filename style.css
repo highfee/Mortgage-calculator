@@ -112,3 +112,26 @@ input[type="radio"] {
   font-size: 20px;
   font-weight: 600;
 }
+
+@media screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+    width: 90%;
+    border-radius: 0;
+  }
+
+  main > section {
+    width: 100%;
+  }
+
+  .two {
+    flex-direction: column;
+  }
+  .data {
+    border-radius: 0;
+  }
+  .form button {
+    width: 100%;
+    font-size: 16px;
+  }
+}
